@@ -35,6 +35,11 @@ The next numbers to pair up are `3` and `4`, a distance of `1`.
 The fifth-smallest numbers in each list are `3` and `5`, a distance of `2`.
 Finally, the largest number in the left list is `4`, while the largest number in the right list is `9`; these are a distance `5` apart.
 To find the total distance between the left list and the right list, add up the distances between all of the pairs you found. In the example above, this is `2 + 1 + 0 + 1 + 2 + 5`, a total distance of `11`!
+
+Your actual left and right lists contain many location IDs. What is the total distance between your lists?
+
+Your puzzle answer was `1765812`.
+
 ## --- Part Two ---
 Your analysis only confirmed what everyone feared: the two lists of location IDs are indeed very different.
 
@@ -62,3 +67,7 @@ The fourth number, `1`, also does not appear in the right list.
 The fifth number, `3`, appears in the right list three times; the similarity score increases by `9`.
 The last number, `3`, appears in the right list three times; the similarity score again increases by `9`.
 So, for these example lists, the similarity score at the end of this process is 31 `(9 + 4 + 0 + 0 + 9 + 9)`.
+
+Once again consider your left and right lists. What is their similarity score?
+
+Your puzzle answer was `20520794`.
